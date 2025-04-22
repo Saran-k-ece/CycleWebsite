@@ -1,0 +1,119 @@
+.Hheader {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 78px; 
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    overflow: hidden;
+    z-index: 1000;
+    transition: background-color 0.3s;
+}
+
+/* Transparent Navbar */
+.Hheader.transparent {
+    background-color: transparent;
+}
+
+/* Navigation Styles */
+.Nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding: 0 20px;
+    background: transparent;
+}
+
+.Nav .logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    background-color: transparent;
+    width: 80px;
+    height: 60px;
+}
+
+.logo-container h3 {
+    color: white;
+    font-size: 30px;
+}
+
+.Nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    flex-grow: 1;
+}
+
+.Nav li {
+    margin: 0 15px; 
+    font-size: 20px;
+}
+
+.Nav a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    transition: color 0.3s;
+}
+
+.Nbtn button {
+    height: 19px;
+}
+
+.Nav:hover, .Nav:focus-within {
+    background-color: white;
+}
+
+.Nav:hover a, .Nav:focus-within a {
+    color: black;
+}
+
+.Nav:hover h3, .Lheading:focus-within h3 {
+    color: black;
+}
+
+.Nav:hover input, .input:focus-within input {
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    height: 25px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto; 
+}
+
+.search-input {
+    margin-top: 17px;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 5px;
+    color: #111;
+}
+
+.search-button {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #555;
+}
