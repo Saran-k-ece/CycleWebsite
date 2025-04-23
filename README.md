@@ -23,8 +23,7 @@ A full-featured **Cycle Website** built with the **MERN Stack** (MongoDB, Expres
 - **Authentication**: JWT (JSON Web Tokens)
 - **Deployment**: 
   - Frontend: Vercel  
-  - Backend: (You can add Render/Heroku or wherever you hosted it)
-
+  - Backend
 ## 🏁 Getting Started
 
 Follow the steps below to run this project locally.
