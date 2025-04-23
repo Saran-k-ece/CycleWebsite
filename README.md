@@ -1,19 +1,19 @@
 # 🚴‍♂️ Cycle Website
 
-A full-featured **Cycle Website** built with the **MERN Stack** (MongoDB, Express.js, React, Node.js). This application supports **user authentication** and **cart management**, providing a smooth and secure e-commerce experience.
+A full-featured **Cycle Website** built with the **MERN Stack** (MongoDB, Express.js, React, Node.js). This app supports **user authentication** and **cart management**, allowing users to browse cycles, login, and save their cart items securely.
 
 ## 🌐 Live Demo
 
-🔗 _[Add your deployed link here if available]_
+🔗 [View Live App](https://cycle-website-1.vercel.app/HomePage)
 
 ## 🔑 Key Features
 
 - 🧾 User Registration & Login (Authentication)
 - 🛒 Add to Cart & View Cart Items
-- 🚴 Display of available cycles with details
-- 🔐 Secure storage of user data and cart items in MongoDB
-- 📦 RESTful API integration for backend communication
-- 💻 Responsive frontend with React
+- 🚴 Browse and view cycle listings
+- 🔐 Secure backend with MongoDB and JWT
+- 📦 RESTful APIs for frontend-backend integration
+- 💻 Responsive design for desktop and mobile
 
 ## 🧰 Tech Stack
 
@@ -21,44 +21,15 @@ A full-featured **Cycle Website** built with the **MERN Stack** (MongoDB, Expres
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
 - **Authentication**: JWT (JSON Web Tokens)
-- **API Testing**: Postman (optional)
-- **Deployment**: Vercel (Frontend), Render/Heroku (Backend) or any hosting of choice
+- **Deployment**: 
+  - Frontend: Vercel  
+  - Backend: (You can add Render/Heroku or wherever you hosted it)
 
 ## 🏁 Getting Started
+
+Follow the steps below to run this project locally.
 
 ### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/your-cycle-website.git
-2. Navigate to the project folder
-cd your-cycle-website
-3. Install frontend dependencies
-cd client
-npm install
-4. Install backend dependencies
-cd ../server
-npm install
-5. Set up environment variables
-Create a .env file in the server directory with the following:
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
-6. Run the backend server
-Edit
-npm run dev
-7. Run the frontend
-In a separate terminal:
-cd client
-npm start
-📂 Folder Structure
-cpp
-Copy
-Edit
-├── client/ (React frontend)
-│   ├── src/
-│   ├── public/
-│   └── ...
-├── server/ (Express backend)
-│   ├── routes/
-│   ├── controllers/
-│   ├── models/
-│   └── ...
